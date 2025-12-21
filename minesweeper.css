@@ -1,0 +1,156 @@
+/* Minesweeper CSS */
+
+/* Container within the window */
+.ms-wrapper {
+    background-color: #c0c0c0;
+    /* Classic Windows 95 Grey */
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    user-select: none;
+    font-family: 'Courier New', Courier, monospace;
+    /* Digital look */
+}
+
+/* Header (Status Bar, Timer, Face) */
+.ms-header {
+    background-color: #c0c0c0;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+
+.ms-counter {
+    background: #000;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 4px;
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    width: 40px;
+    text-align: right;
+}
+
+.ms-face-btn {
+    width: 26px;
+    height: 26px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+    background-color: #c0c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.ms-face-btn:active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+/* The Grid Board */
+.ms-board {
+    display: grid;
+    /* Columns set via JS inline style */
+    background-color: #808080;
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+/* Individual Cell */
+.ms-cell {
+    width: 25px;
+    height: 25px;
+    background-color: #c0c0c0;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: default;
+}
+
+.ms-cell:active {
+    /* Pressed effect when clicking unrevealed */
+    border: 1px solid #808080;
+}
+
+/* Revealed State */
+.ms-cell.revealed {
+    border: 1px solid #808080;
+    /* Flat look */
+    background-color: #c0c0c0;
+}
+
+/* Mine Hit (Game Over) */
+.ms-cell.mine-hit {
+    background-color: red;
+    border: 1px solid #808080;
+}
+
+/* Flagged State */
+.ms-cell.flagged {
+    color: red;
+    /* Basic flag color fallback */
+}
+
+
+/* Number Colors */
+.ms-cell[data-num="1"] {
+    color: blue;
+}
+
+.ms-cell[data-num="2"] {
+    color: green;
+}
+
+.ms-cell[data-num="3"] {
+    color: red;
+}
+
+.ms-cell[data-num="4"] {
+    color: darkblue;
+}
+
+.ms-cell[data-num="5"] {
+    color: darkred;
+}
+
+.ms-cell[data-num="6"] {
+    color: teal;
+}
+
+.ms-cell[data-num="7"] {
+    color: black;
+}
+
+.ms-cell[data-num="8"] {
+    color: gray;
+}
