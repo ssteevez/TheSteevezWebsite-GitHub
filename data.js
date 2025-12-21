@@ -16,6 +16,517 @@ var fileSystem = {
     // --- DYNAMIC CONTENT ---
     // (Generated from assets/portfolio)
 
+    "ArmenianGenocide": {
+        "name": "ArmenianGenocide",
+        "type": "folder",
+        "icon": "\ud83d\udcc1",
+        "contents": [
+            {
+                "name": "SR-AG-001.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/ArmenianGenocide/SR-AG-001.jpg",
+                "thumb": "assets/portfolio/ArmenianGenocide/thumbnails/SR-AG-001.jpg"
+            },
+            {
+                "name": "SR-AG-002.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/ArmenianGenocide/SR-AG-002.jpg",
+                "thumb": "assets/portfolio/ArmenianGenocide/thumbnails/SR-AG-002.jpg"
+            }
+        ]
+    },
+    "Cannes 2015": {
+        "name": "Cannes 2015",
+        "type": "folder",
+        "icon": "\ud83d\udcc1",
+        "contents": [
+            {
+                "name": "SR-CA-001.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-001.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-001.jpg"
+            },
+            {
+                "name": "SR-CA-002.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-002.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-002.jpg"
+            },
+            {
+                "name": "SR-CA-003.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-003.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-003.jpg"
+            },
+            {
+                "name": "SR-CA-004.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-004.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-004.jpg"
+            },
+            {
+                "name": "SR-CA-005.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-005.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-005.jpg"
+            },
+            {
+                "name": "SR-CA-006.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-006.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-006.jpg"
+            },
+            {
+                "name": "SR-CA-007.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-007.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-007.jpg"
+            },
+            {
+                "name": "SR-CA-008.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-008.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-008.jpg"
+            },
+            {
+                "name": "SR-CA-009.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-009.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-009.jpg"
+            },
+            {
+                "name": "SR-CA-010.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-010.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-010.jpg"
+            },
+            {
+                "name": "SR-CA-011.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-011.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-011.jpg"
+            },
+            {
+                "name": "SR-CA-012.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-012.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-012.jpg"
+            },
+            {
+                "name": "SR-CA-013.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-013.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-013.jpg"
+            },
+            {
+                "name": "SR-CA-014.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-014.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-014.jpg"
+            },
+            {
+                "name": "SR-CA-015.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-015.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-015.jpg"
+            },
+            {
+                "name": "SR-CA-016.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-016.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-016.jpg"
+            },
+            {
+                "name": "SR-CA-017.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-017.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-017.jpg"
+            },
+            {
+                "name": "SR-CA-018.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-018.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-018.jpg"
+            },
+            {
+                "name": "SR-CA-019.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-019.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-019.jpg"
+            },
+            {
+                "name": "SR-CA-020.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-020.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-020.jpg"
+            },
+            {
+                "name": "SR-CA-021.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-021.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-021.jpg"
+            },
+            {
+                "name": "SR-CA-022.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-022.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-022.jpg"
+            },
+            {
+                "name": "SR-CA-023.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-023.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-023.jpg"
+            },
+            {
+                "name": "SR-CA-024.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-024.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-024.jpg"
+            },
+            {
+                "name": "SR-CA-025.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-025.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-025.jpg"
+            },
+            {
+                "name": "SR-CA-026.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/Cannes 2015/SR-CA-026.jpg",
+                "thumb": "assets/portfolio/Cannes 2015/thumbnails/SR-CA-026.jpg"
+            }
+        ]
+    },
+    "CharlieHebdo": {
+        "name": "CharlieHebdo",
+        "type": "folder",
+        "icon": "\ud83d\udcc1",
+        "contents": [
+            {
+                "name": "SR-HB-002.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-002.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-002.jpg"
+            },
+            {
+                "name": "SR-HB-003.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-003.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-003.jpg"
+            },
+            {
+                "name": "SR-HB-004.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-004.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-004.jpg"
+            },
+            {
+                "name": "SR-HB-005.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-005.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-005.jpg"
+            },
+            {
+                "name": "SR-HB-006.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-006.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-006.jpg"
+            },
+            {
+                "name": "SR-HB-007.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-007.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-007.jpg"
+            },
+            {
+                "name": "SR-HB-008.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-008.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-008.jpg"
+            },
+            {
+                "name": "SR-HB-009.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-009.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-009.jpg"
+            },
+            {
+                "name": "SR-HB-010.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-010.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-010.jpg"
+            },
+            {
+                "name": "SR-HB-011.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-011.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-011.jpg"
+            },
+            {
+                "name": "SR-HB-012.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-012.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-012.jpg"
+            },
+            {
+                "name": "SR-HB-013.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-013.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-013.jpg"
+            },
+            {
+                "name": "SR-HB-014.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-014.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-014.jpg"
+            },
+            {
+                "name": "SR-HB-015.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-015.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-015.jpg"
+            },
+            {
+                "name": "SR-HB-016.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-016.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-016.jpg"
+            },
+            {
+                "name": "SR-HB-017.1.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-017.1.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-017.1.jpg"
+            },
+            {
+                "name": "SR-HB-017.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-017.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-017.jpg"
+            },
+            {
+                "name": "SR-HB-018.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-018.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-018.jpg"
+            },
+            {
+                "name": "SR-HB-019.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-019.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-019.jpg"
+            },
+            {
+                "name": "SR-HB-020.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-020.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-020.jpg"
+            },
+            {
+                "name": "SR-HB-021.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-021.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-021.jpg"
+            },
+            {
+                "name": "SR-HB-022.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-022.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-022.jpg"
+            },
+            {
+                "name": "SR-HB-023.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-023.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-023.jpg"
+            },
+            {
+                "name": "SR-HB-024.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-024.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-024.jpg"
+            },
+            {
+                "name": "SR-HB-025.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-025.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-025.jpg"
+            },
+            {
+                "name": "SR-HB-026.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-026.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-026.jpg"
+            },
+            {
+                "name": "SR-HB-027.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-027.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-027.jpg"
+            },
+            {
+                "name": "SR-HB-028.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-028.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-028.jpg"
+            },
+            {
+                "name": "SR-HB-029.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-029.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-029.jpg"
+            },
+            {
+                "name": "SR-HB-030.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-030.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-030.jpg"
+            },
+            {
+                "name": "SR-HB-031.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-031.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-031.jpg"
+            },
+            {
+                "name": "SR-HB-032.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-032.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-032.jpg"
+            },
+            {
+                "name": "SR-HB-033.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-033.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-033.jpg"
+            },
+            {
+                "name": "SR-HB-034.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-034.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-034.jpg"
+            },
+            {
+                "name": "SR-HB-035.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-035.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-035.jpg"
+            },
+            {
+                "name": "SR-HB-036.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-036.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-036.jpg"
+            },
+            {
+                "name": "SR-HB-037.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-037.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-037.jpg"
+            },
+            {
+                "name": "SR-HB-038.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-038.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-038.jpg"
+            },
+            {
+                "name": "SR-HB-039.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-039.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-039.jpg"
+            },
+            {
+                "name": "SR-HB-040.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-040.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-040.jpg"
+            },
+            {
+                "name": "SR-HB-041.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-041.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-041.jpg"
+            },
+            {
+                "name": "SR-HB-042.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/CharlieHebdo/SR-HB-042.jpg",
+                "thumb": "assets/portfolio/CharlieHebdo/thumbnails/SR-HB-042.jpg"
+            }
+        ]
+    },
     "Comissioned Works": {
         "name": "Comissioned Works",
         "type": "folder",
@@ -555,6 +1066,27 @@ var fileSystem = {
             }
         ]
     },
+    "ForSale": {
+        "name": "ForSale",
+        "type": "folder",
+        "icon": "\ud83d\udcc1",
+        "contents": [
+            {
+                "name": "SR-FS-SS-001.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/ForSale/SR-FS-SS-001.jpg",
+                "thumb": "assets/portfolio/ForSale/thumbnails/SR-FS-SS-001.jpg"
+            },
+            {
+                "name": "SR-FS-SS-002.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/ForSale/SR-FS-SS-002.jpg",
+                "thumb": "assets/portfolio/ForSale/thumbnails/SR-FS-SS-002.jpg"
+            }
+        ]
+    },
     "Hyundai-ArtForHope2024": {
         "name": "Hyundai-ArtForHope2024",
         "type": "folder",
@@ -671,6 +1203,237 @@ var fileSystem = {
                 "icon": "\ud83d\uddbc\ufe0f",
                 "src": "assets/portfolio/Hyundai-ArtForHope2024/SR-HY-016.jpg",
                 "thumb": "assets/portfolio/Hyundai-ArtForHope2024/thumbnails/SR-HY-016.jpg"
+            }
+        ]
+    },
+    "JafflongTents": {
+        "name": "JafflongTents",
+        "type": "folder",
+        "icon": "\ud83d\udcc1",
+        "contents": [
+            {
+                "name": "SR-AG-001.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-001.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-001.jpg"
+            },
+            {
+                "name": "SR-AG-002.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-002.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-002.jpg"
+            },
+            {
+                "name": "SR-AG-003.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-003.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-003.jpg"
+            },
+            {
+                "name": "SR-AG-004.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-004.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-004.jpg"
+            },
+            {
+                "name": "SR-AG-005.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-005.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-005.jpg"
+            },
+            {
+                "name": "SR-AG-006.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-006.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-006.jpg"
+            },
+            {
+                "name": "SR-AG-007.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-007.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-007.jpg"
+            },
+            {
+                "name": "SR-AG-008.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-008.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-008.jpg"
+            },
+            {
+                "name": "SR-AG-009.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-009.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-009.jpg"
+            },
+            {
+                "name": "SR-AG-010.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-010.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-010.jpg"
+            },
+            {
+                "name": "SR-AG-011.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-011.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-011.jpg"
+            },
+            {
+                "name": "SR-AG-012.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-012.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-012.jpg"
+            },
+            {
+                "name": "SR-AG-013.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-013.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-013.jpg"
+            },
+            {
+                "name": "SR-AG-014.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-014.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-014.jpg"
+            },
+            {
+                "name": "SR-AG-015.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-015.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-015.jpg"
+            },
+            {
+                "name": "SR-AG-016.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-016.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-016.jpg"
+            },
+            {
+                "name": "SR-AG-017.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-017.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-017.jpg"
+            },
+            {
+                "name": "SR-AG-018.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-018.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-018.jpg"
+            },
+            {
+                "name": "SR-AG-019.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-019.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-019.jpg"
+            },
+            {
+                "name": "SR-AG-020.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-020.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-020.jpg"
+            },
+            {
+                "name": "SR-AG-021.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-021.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-021.jpg"
+            },
+            {
+                "name": "SR-AG-022.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-022.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-022.jpg"
+            },
+            {
+                "name": "SR-AG-023.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-023.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-023.jpg"
+            },
+            {
+                "name": "SR-AG-024.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-024.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-024.jpg"
+            },
+            {
+                "name": "SR-AG-025.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-025.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-025.jpg"
+            },
+            {
+                "name": "SR-AG-026.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-026.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-026.jpg"
+            },
+            {
+                "name": "SR-AG-027.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-027.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-027.jpg"
+            },
+            {
+                "name": "SR-AG-028.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-028.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-028.jpg"
+            },
+            {
+                "name": "SR-AG-029.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-029.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-029.jpg"
+            },
+            {
+                "name": "SR-AG-030.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-030.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-030.jpg"
+            },
+            {
+                "name": "SR-AG-031.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-031.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-031.jpg"
+            },
+            {
+                "name": "SR-AG-032.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/JafflongTents/SR-AG-032.jpg",
+                "thumb": "assets/portfolio/JafflongTents/thumbnails/SR-AG-032.jpg"
             }
         ]
     },
@@ -947,11 +1710,221 @@ var fileSystem = {
             }
         ]
     },
+    "PortraitOfLivingDead": {
+        "name": "PortraitOfLivingDead",
+        "type": "folder",
+        "icon": "\ud83d\udcc1",
+        "contents": [
+            {
+                "name": "SR-AG-001.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-001.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-001.jpg"
+            },
+            {
+                "name": "SR-AG-002.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-002.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-002.jpg"
+            },
+            {
+                "name": "SR-AG-003.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-003.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-003.jpg"
+            },
+            {
+                "name": "SR-AG-004.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-004.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-004.jpg"
+            },
+            {
+                "name": "SR-AG-005.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-005.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-005.jpg"
+            },
+            {
+                "name": "SR-AG-006.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-006.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-006.jpg"
+            },
+            {
+                "name": "SR-AG-007.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-007.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-007.jpg"
+            },
+            {
+                "name": "SR-AG-008.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-008.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-008.jpg"
+            },
+            {
+                "name": "SR-AG-009.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-009.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-009.jpg"
+            },
+            {
+                "name": "SR-AG-010.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-010.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-010.jpg"
+            },
+            {
+                "name": "SR-AG-011.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-011.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-011.jpg"
+            },
+            {
+                "name": "SR-AG-012.jpg",
+                "type": "image",
+                "icon": "\ud83d\uddbc\ufe0f",
+                "src": "assets/portfolio/PortraitOfLivingDead/SR-AG-012.jpg",
+                "thumb": "assets/portfolio/PortraitOfLivingDead/thumbnails/SR-AG-012.jpg"
+            }
+        ]
+    },
     "Vikatan Thadam - Cover Shoot": {
         "name": "Vikatan Thadam - Cover Shoot",
         "type": "folder",
         "icon": "\ud83d\udcc1",
         "contents": [
+            {
+                "name": "A.Marx",
+                "type": "folder",
+                "icon": "\ud83d\udcc1",
+                "contents": [
+                    {
+                        "name": "SR-TC-AM-001.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-001.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-001.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-002.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-002.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-002.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-003.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-003.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-003.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-004.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-004.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-004.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-005.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-005.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-005.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-006.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-006.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-006.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-007.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-007.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-007.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-008.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-008.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-008.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-009.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-009.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-009.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-010.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-010.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-010.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-011.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-011.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-011.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-012.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-012.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-012.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-013.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-013.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-013.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-014.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-014.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-014.jpg"
+                    },
+                    {
+                        "name": "SR-TC-AM-015.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/SR-TC-AM-015.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/thumbnails/SR-TC-AM-015.jpg"
+                    },
+                    {
+                        "name": "www.vikatan.com:",
+                        "type": "link",
+                        "icon": "\ud83c\udf10",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/A.Marx/www.vikatan.com:.webloc",
+                        "url": "https://www.vikatan.com/literature/arts/127227-exclusive-interview-with-amarks"
+                    }
+                ]
+            },
             {
                 "name": "ChandruSir",
                 "type": "folder",
@@ -1152,6 +2125,104 @@ var fileSystem = {
                         "icon": "\ud83d\uddbc\ufe0f",
                         "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/ChandruSir/SR-TC-CH-028.jpg",
                         "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/ChandruSir/thumbnails/SR-TC-CH-028.jpg"
+                    },
+                    {
+                        "name": "www.vikatan.com:",
+                        "type": "link",
+                        "icon": "\ud83c\udf10",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/ChandruSir/www.vikatan.com:.webloc",
+                        "url": "https://www.vikatan.com/literature/arts/126157-interview-with-painter-chandru"
+                    }
+                ]
+            },
+            {
+                "name": "PerumalMurugan",
+                "type": "folder",
+                "icon": "\ud83d\udcc1",
+                "contents": [
+                    {
+                        "name": "SR-TC-PM-001.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-001.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-001.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-002.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-002.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-002.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-003.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-003.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-003.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-004.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-004.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-004.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-005.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-005.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-005.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-006.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-006.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-006.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-007.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-007.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-007.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-008.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-008.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-008.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-009.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-009.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-009.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-010.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-010.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-010.jpg"
+                    },
+                    {
+                        "name": "SR-TC-PM-011.jpg",
+                        "type": "image",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/SR-TC-PM-011.jpg",
+                        "thumb": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/thumbnails/SR-TC-PM-011.jpg"
+                    },
+                    {
+                        "name": "Thadam Vikatan - 01 April 2017 - \u201c\u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bb4\u0bc8\u0baf \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb3\u0bcd \u0bae\u0bc1\u0bb0\u0bc1\u0b95\u0ba9\u0bcd \u0b87\u0bb2\u0bcd\u0bb2\u0bc8!\u201d - \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb3\u0bcd \u0bae\u0bc1\u0bb0\u0bc1\u0b95\u0ba9\u0bcd | Interview \u2026",
+                        "type": "link",
+                        "icon": "\ud83c\udf10",
+                        "src": "assets/portfolio/Vikatan Thadam - Cover Shoot/PerumalMurugan/Thadam Vikatan - 01 April 2017 - \u201c\u0ba8\u0bbe\u0ba9\u0bcd \u0baa\u0bb4\u0bc8\u0baf \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb3\u0bcd \u0bae\u0bc1\u0bb0\u0bc1\u0b95\u0ba9\u0bcd \u0b87\u0bb2\u0bcd\u0bb2\u0bc8!\u201d - \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bbe\u0bb3\u0bcd \u0bae\u0bc1\u0bb0\u0bc1\u0b95\u0ba9\u0bcd | Interview \u2026.webloc",
+                        "url": "https://www.vikatan.com/literature/arts/130024-interview-with-author-perumal-murugan#:~:text=%E0%AE%87%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%9A%E0%AF%8D%20%E0%AE%9A%E0%AE%BF%E0%AE%B1%E0%AE%BF%E0%AE%AF%20%E0%AE%95%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AF%88%2C%20%E0%AE%93%E0%AE%B0%E0%AF%8D%20%E0%AE%8E%E0%AE%B4%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AE%B3%E0%AE%A9%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%B5%E0%AE%B2%E0%AE%BF%20%E0%AE%AE%E0%AE%BF%E0%AE%95%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4%20%E0%AE%B5%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%AE%E0%AF%82%E0%AE%B2%E0%AE%AE%E0%AF%8D.%20%E0%AE%85%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%20%E0%AE%8E%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%A9%20%E0%AE%8E%E0%AE%B3%E0%AE%BF%E0%AE%AF%E0%AE%A9%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%B5%E0%AE%BF%E0%AE%9A%E0%AF%81%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AE%B2%E0%AF%8D&text=%E0%AE%A4%E0%AF%81%E0%AE%B0%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%20%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D%2C%20%E0%AE%A4%E0%AE%A9%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%B3%E0%AF%8D%20%E0%AE%85%E0%AE%9F%E0%AF%88%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AE%BF%E0%AE%9F%E0%AE%A8%E0%AF%8D%E0%AE%A4%20%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AE%BF%E0%AE%B2%E0%AF%8D%20%E0%AE%92%E0%AE%B0%E0%AF%81%20%E0%AE%95%E0%AE%B5%E0%AE%BF%E0%AE%9E%E0%AE%A9%E0%AF%8D%20%E0%AE%A4%E0%AF%81%E0%AE%AF%E0%AE%B0%E0%AF%8D%E0%AE%A8%E0%AE%BF%E0%AE%B1%E0%AF%88%E0%AE%A8%E0%AF%8D%E0%AE%A4%20%E0%AE%A4%E0%AE%A9%E0%AF%8D%20%E0%AE%AE%E0%AE%A9%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AE%B2%E0%AF%8D%20%E0%AE%95%E0%AF%80%E0%AE%B1%E0%AE%BF%E0%AE%AF%20%E0%AE%86%E0%AE%B1%E0%AF%81"
                     }
                 ]
             }
