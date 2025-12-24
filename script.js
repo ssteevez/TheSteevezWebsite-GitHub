@@ -36,11 +36,19 @@ function updateClock() {
     const clockElement = document.getElementById('clock');
     if (!clockElement) return;
 
-    const now = new Date();
-    const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-    const dateString = now.toLocaleDateString([], { weekday: 'short' });
+    // Check for "Last Seen" window
+    const lastSeenOpen = Array.from(document.querySelectorAll('.window-title')).some(el => el.innerText === 'Last Seen');
 
-    clockElement.innerText = `${dateString} ${timeString}`;
+    if (lastSeenOpen) {
+        // Frozen Time: 24 Sept 2015
+        clockElement.innerText = "24 Sept 2015";
+    } else {
+        // Real Time
+        const now = new Date();
+        const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        const dateString = now.toLocaleDateString([], { weekday: 'short' });
+        clockElement.innerText = `${dateString} ${timeString}`;
+    }
 }
 
 // --- DESKTOP MANAGEMENT ---
@@ -83,8 +91,13 @@ function createDesktopIcon(name, item) {
     iconDiv.dataset.dynamic = "true";
     iconDiv.dataset.label = name;
 
+    let iconHtml = `<div class="icon-img">${item.icon || '📁'}</div>`;
+    if (item.iconSrc) {
+        iconHtml = `<div class="icon-img"><img src="${item.iconSrc}" draggable="false" style="width: 48px; height: 48px; object-fit: contain;"></div>`;
+    }
+
     iconDiv.innerHTML = `
-        <div class="icon-img">${item.icon || '📁'}</div>
+        ${iconHtml}
         <div class="icon-label">${name}</div>
     `;
 
@@ -201,9 +214,12 @@ function createWindow(title, contentHTML, width = 400, height = 300) {
     win.id = id;
     win.style.width = width + 'px';
     win.style.height = height + 'px';
-    // Center it roughly
+    // Center it roughly, but ensure it doesn't go under menu bar
+    let topPos = (window.innerHeight / 2 - height / 2) + (Math.random() * 40 - 20);
+    if (topPos < MENU_BAR_HEIGHT + 10) topPos = MENU_BAR_HEIGHT + 10;
+
     win.style.left = (window.innerWidth / 2 - width / 2) + (Math.random() * 40 - 20) + 'px';
-    win.style.top = (window.innerHeight / 2 - height / 2) + (Math.random() * 40 - 20) + 'px';
+    win.style.top = topPos + 'px';
     win.style.zIndex = ++zIndexCounter;
 
     win.innerHTML = `
@@ -442,9 +458,11 @@ function renderFiles(files, container, onFolderClick) {
 
         let iconHtml = `<div class="file-icon">${file.icon || '📄'}</div>`;
         if (file.type === 'image' && (file.thumb || file.src)) {
-            // Use Thumbnail if available, else src
             const thumbSrc = file.thumb || file.src;
             iconHtml = `<img src="${thumbSrc}" class="file-thumbnail" draggable="false" loading="lazy">`;
+        } else if (file.iconSrc) {
+            // Support for custom image icons on Apps/Files
+            iconHtml = `<img src="${file.iconSrc}" class="file-icon-img" draggable="false" style="width: 48px; height: 48px; object-fit: contain;">`;
         }
 
         item.innerHTML = `
@@ -460,8 +478,10 @@ function renderFiles(files, container, onFolderClick) {
                 if (onFolderClick) onFolderClick(file);
             } else if (file.name === 'Resume.pdf') {
                 createResumeWindow();
+            } else if (file.type === 'app') {
+                createAppWindow(file);
             } else {
-                // Open in Universal Gallery
+                // Open File Window for generic filesrsal Gallery
                 createGalleryWindow(file, files);
             }
         });
@@ -783,6 +803,7 @@ function createStickyNote() {
 
 
 // --- CONTEXT MENU ---
+// --- CONTEXT MENU ---
 function setupContextMenu() {
     const ctxMenu = document.getElementById('context-menu');
     // Trash option removed
@@ -811,6 +832,34 @@ function setupContextMenu() {
     document.addEventListener('click', (e) => {
         if (ctxMenu) ctxMenu.style.display = 'none';
     });
+}
+
+function showDesktopContextMenu(x, y) {
+    const ctxMenu = document.getElementById('context-menu');
+    if (!ctxMenu) return;
+
+    // Restore default desktop menu items
+    ctxMenu.innerHTML = `
+        <div class="dropdown-item" id="menu-reorganise">Reorganise Desktop</div>
+        <div class="dropdown-item" id="menu-refresh-layout">Refresh</div>
+        <div class="dropdown-item" id="menu-change-bg">Random Pastel Color</div>
+    `;
+
+    // Re-attach listeners because we overwrote innerHTML
+    ctxMenu.querySelector('#menu-reorganise').onclick = () => randomizeIcons(); // Calls the safe-zone logic
+    ctxMenu.querySelector('#menu-refresh-layout').onclick = () => location.reload();
+    ctxMenu.querySelector('#menu-change-bg').onclick = () => setRandomPastelBackground();
+
+    ctxMenu.style.left = x + 'px';
+    ctxMenu.style.top = y + 'px';
+    ctxMenu.style.display = 'block';
+}
+
+function setDesktopBackground(url) {
+    const desktop = document.getElementById('desktop');
+    // Remove color, add image
+    desktop.style.backgroundColor = 'transparent';
+    desktop.style.backgroundImage = `url("${url}")`;
 }
 
 
@@ -943,6 +992,8 @@ function makeIconDraggable(element) {
             const item = fileSystem[label];
             if (item.type === 'folder') {
                 createFinderWindow(label, item.contents);
+            } else if (item.type === 'app') {
+                createAppWindow(item);
             }
         }
     });
@@ -1123,7 +1174,23 @@ function playSystemSound(type) {
         noiseGain.gain.setValueAtTime(0.5, now);
         noiseGain.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
         noise.start(now);
-    } else if (type === 'trash') {
-        // Removed
     }
+}
+
+function createAppWindow(appConfig) {
+    const win = createWindow(appConfig.title || 'Application', '', appConfig.width || 800, appConfig.height || 600);
+    const content = win.querySelector('.window-content');
+    content.style.overflow = 'hidden';
+
+    // Apps handle their own scroll, so we remove the default padding/overflow
+    content.style.display = 'flex';
+    content.style.flexDirection = 'column';
+
+    const iframe = document.createElement('iframe');
+    iframe.src = appConfig.appPath;
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.border = 'none';
+
+    content.appendChild(iframe);
 }

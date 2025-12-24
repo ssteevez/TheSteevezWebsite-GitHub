@@ -1,0 +1,73 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow: hidden;
+}
+
+#puzzle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+#puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0;
+    width: min(90vw, 90vh);
+    height: min(90vw, 90vh);
+    max-width: 600px;
+    max-height: 600px;
+    background-color: #000;
+}
+
+.tile {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.tile:hover {
+    opacity: 0.85;
+}
+
+.tile.empty {
+    background: #000;
+    cursor: default;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.tile.empty:hover {
+    opacity: 1;
+}
+
+/* When puzzle is solved, remove borders */
+body.solved .tile {
+    border: none;
+    cursor: default;
+}
+
+body.solved .tile:hover {
+    opacity: 1;
+}

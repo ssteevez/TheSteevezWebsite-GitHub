@@ -12,7 +12,25 @@ var fileSystem = {
             { name: "Code_Snippet.js", type: "file", icon: "📜" }
         ]
     },
-    
+
+    "LastSeen.exe": {
+        type: "app",
+        iconSrc: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg",
+        appPath: "apps/LastSeen/index.html",
+        title: "Last Seen",
+        width: 1200,
+        height: 850
+    },
+
+    "ImagePuzzle.exe": {
+        type: "app",
+        icon: "🧩",
+        appPath: "apps/ImagePuzzle/index.html",
+        title: "ImagePuzzle",
+        width: 650,
+        height: 650
+    },
+
     // --- DYNAMIC CONTENT ---
     // (Generated from assets/portfolio)
 
@@ -2228,5 +2246,5 @@ var fileSystem = {
             }
         ]
     }
-,
+    ,
 };

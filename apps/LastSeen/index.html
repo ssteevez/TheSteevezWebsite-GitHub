@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for authenticity -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Product+Sans&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="gb">
+        <div class="gb_left">
+            <div class="gb_menu_btn"><span class="material-icons">menu</span></div>
+            <div class="gb_logo">
+                <span class="gb_logo_text">Last Seen</span>
+            </div>
+        </div>
+        <div class="gb_center">
+            <form class="gb_search_form" onsubmit="return false;">
+                <div class="gb_search_bar">
+                    <span class="material-icons gb_search_icon">search</span>
+                    <input type="text" placeholder="Search mail" id="search-input">
+                    <span class="material-icons gb_tune_icon">tune</span>
+                </div>
+            </form>
+        </div>
+        <div class="gb_right">
+            <span class="material-icons gb_icon">help_outline</span>
+            <span class="material-icons gb_icon">settings</span>
+            <span class="material-icons gb_icon">apps</span>
+            <div class="gb_avatar">S</div>
+        </div>
+    </header>
+
+    <div id="app-container">
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <div class="sidebar-compose-wrapper">
+                <div class="compose-btn">
+                    <img src="https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png" alt="">
+                    <span>Compose</span>
+                </div>
+            </div>
+
+            <div class="nav-items">
+                <div class="nav-item active" id="nav-inbox" onclick="selectFolder('Inbox')">
+                    <span class="material-icons">inbox</span>
+                    <span class="nav-label">Inbox</span>
+                    <span class="nav-count" id="count-inbox"></span>
+                </div>
+                <div class="nav-item" id="nav-starred" onclick="selectFolder('Starred')">
+                    <span class="material-icons">star_border</span>
+                    <span class="nav-label">Starred</span>
+                </div>
+                <div class="nav-item" id="nav-sent" onclick="selectFolder('Sent')">
+                    <span class="material-icons">send</span>
+                    <span class="nav-label">Sent</span>
+                </div>
+                <div class="nav-item" id="nav-drafts">
+                    <span class="material-icons">insert_drive_file</span>
+                    <span class="nav-label">Drafts</span>
+                </div>
+                <!-- People section removed for now -->
+            </div>
+        </div>
+
+        <!-- Main Content (Full Width) -->
+        <div id="main-content">
+
+            <!-- VIEW A: Email List -->
+            <div id="email-list-pane">
+
+                <!-- Toolbar -->
+                <div class="toolbar-master">
+                    <div class="checkbox-wrapper"><span class="material-icons">check_box_outline_blank</span></div>
+                    <span class="material-icons refresh-icon" onclick="renderEmailList()">refresh</span>
+                    <span class="material-icons more-icon">more_vert</span>
+
+                    <div class="pagination-controls">
+                        <span class="page-info" id="page-info-top"></span>
+                        <span class="material-icons" onclick="prevPage()">chevron_left</span>
+                        <span class="material-icons" onclick="nextPage()">chevron_right</span>
+                    </div>
+                </div>
+
+                <!-- Tabs (Primary, Promotions) -->
+                <div class="inbox-tabs">
+                    <div class="inbox-tab active">
+                        <span class="material-icons tab-icon">inbox</span>
+                        <span class="tab-label">Primary</span>
+                    </div>
+                    <div class="inbox-tab">
+                        <span class="material-icons tab-icon">local_offer</span>
+                        <span class="tab-label">Promotions</span>
+                        <span class="tab-badge">2 new</span>
+                    </div>
+                    <div class="inbox-tab">
+                        <span class="material-icons tab-icon">group</span>
+                        <span class="tab-label">Social</span>
+                    </div>
+                </div>
+
+                <!-- The List -->
+                <div id="email-list-container">
+                    <!-- Emails go here -->
+                </div>
+            </div>
+
+            <!-- VIEW B: Reading Pane (Initially Hidden) -->
+            <div id="reading-pane" style="display: none;">
+
+                <div class="toolbar-master">
+                    <div class="back-btn" onclick="showList()">
+                        <span class="material-icons">arrow_back</span>
+                    </div>
+                    <span class="material-icons">archive</span>
+                    <span class="material-icons">report</span>
+                    <span class="material-icons">delete</span>
+                    <div class="v-divider"></div>
+                    <span class="material-icons">email</span>
+                    <span class="material-icons">label</span>
+                    <span class="material-icons">more_vert</span>
+
+                    <div class="pagination-controls">
+                        <span class="page-info">1 of 100</span>
+                        <span class="material-icons">chevron_left</span>
+                        <span class="material-icons">chevron_right</span>
+                    </div>
+                </div>
+
+                <div class="read-content-wrapper">
+                    <div class="detail-header">
+                        <div class="detail-subject-row">
+                            <h2 id="email-subject">Subject</h2>
+                            <div class="detail-labels"><span class="email-label">Inbox</span></div>
+                        </div>
+                        <div class="detail-meta-row">
+                            <div class="sender-avatar" id="sender-avatar">S</div>
+                            <div class="meta-info">
+                                <span class="sender-name" id="email-from-name">Sender Name</span>
+                                <span class="sender-email" id="email-from-address">&lt;sender@example.com&gt;</span>
+                                <div class="to-me">to me <span class="material-icons"
+                                        style="font-size: 14px; vertical-align: middle;">arrow_drop_down</span></div>
+                            </div>
+                            <div class="meta-date" id="email-date">Dec 1, 2015, 9:30 AM</div>
+                            <div class="meta-actions">
+                                <span class="material-icons">star_border</span>
+                                <span class="material-icons">reply</span>
+                                <span class="material-icons">more_vert</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail-body">
+                        <pre id="email-body">Email body content...</pre>
+                    </div>
+
+                    <div class="detail-footer">
+                        <button class="reply-btn"><span class="material-icons">reply</span> Reply</button>
+                        <button class="forward-btn"><span class="material-icons">forward</span> Forward</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="data/data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

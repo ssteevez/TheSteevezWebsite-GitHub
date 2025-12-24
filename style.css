@@ -26,6 +26,29 @@ html {
     /* Include padding in height */
 }
 
+/* Ensure content is above overlay */
+.icon,
+.window,
+.sticky-note {
+    z-index: 1;
+    /* Base z-index above overlay */
+}
+
+/* ... existing code ... */
+
+.icon-label {
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.2;
+    padding: 2px 4px;
+    border-radius: 3px;
+
+    /* Readability on any background */
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 0 5px rgba(0, 0, 0, 0.5);
+    /* Strong shadow */
+}
+
 /* --- MENU BAR STYLES --- */
 #menubar {
     position: fixed;
